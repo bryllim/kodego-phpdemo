@@ -1,0 +1,1 @@
+<hr><footer>This is a footer! All rights reserved.</footer>

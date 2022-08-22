@@ -38,7 +38,7 @@
         </div>
         <button type="submit">Submit</button>
     </form>
-
+    <?php include 'footer.php';?>
 </body>
 
 </html>

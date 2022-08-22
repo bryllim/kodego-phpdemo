@@ -15,5 +15,6 @@
         ?>!
     </h1>
     <a href="logout.php">Logout</a>
+    <?php include 'footer.php';?>
 </body>
 </html>
