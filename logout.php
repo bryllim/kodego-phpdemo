@@ -1,4 +1,6 @@
 <?php
     session_start();
-    echo $_SESSION['user'];
+    session_unset();
+    session_destroy();
+    header("Location: login.php");
 ?>
