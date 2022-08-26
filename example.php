@@ -27,14 +27,14 @@ class Toyota extends Car{
     }
 
     function printDetails(){
-        echo "Car Name: {$this->name} - Country: {$this->country}";
+        $vowels = ['a','e','i','o','u'];
+        echo "This is " . ((in_array(strtolower($this->name[0]), $vowels)) ? "an" : "a") ." {$this->name} - Country: {$this->country}";
     }
 }
 
-$toyota = new Toyota("Toyota", "Japan");
+$toyota = new Toyota("Audi", "Japan");
 $ford = new Toyota("Ford", "USA");
 
 $toyota->printDetails();
-$ford->printDetails();
-$toyota->honk();
+
 ?>
